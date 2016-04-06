@@ -3,10 +3,13 @@ var GLOBAL = GLOBAL || (this || 0).self || global;
 (function moduleExporter(name, entity) {
   "use strict";
 
-  GLOBAL[name] = entity;
   if (typeof module !== "undefined") {
     module["exports"] = entity;
   }
+  else {
+    GLOBAL[name] = entity;
+  }
+
   return entity;
 })("aojil", (function moduleClosure(global) {
   "use strict";
