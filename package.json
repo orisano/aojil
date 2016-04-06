@@ -1,0 +1,22 @@
+{
+  "name": "aojil",
+  "version": "1.0.0",
+  "description": "Aizu Online Judge API Wrapper for browser",
+  "main": "core/aojil.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "jquery-deferred": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "aoj"
+  ],
+  "author": "orisano",
+  "license": "MIT"
+}
