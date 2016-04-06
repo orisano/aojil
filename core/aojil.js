@@ -20,10 +20,10 @@ var GLOBAL = GLOBAL || (this || 0).self || global;
     "getStatusList": getStatusList,
   };
 
-  var PROTOCOL = "http";
+  var SCHEME = "http";
   var HOST = "judge.u-aizu.ac.jp";
-  var PREFIX = "/onlinejudge/webservice";
-  var API_BASE = PROTOCOL + "://" + HOST + PREFIX;
+  var URL_PATH = "onlinejudge/webservice";
+  var API_BASE = SCHEME + "://" + HOST + "/" + URL_PATH;
 
   var jq = global.jQuery;
 
